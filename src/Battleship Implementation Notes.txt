@@ -1,0 +1,50 @@
+Gameplay loop logic:
+
+1. Display menu with options
+2. Start game
+3. Switch to player 1 empty board
+4. Player 1 turn to populate board
+5. Switch to player 2 empty board
+6. Player 2 turn to populate board
+7. Switch to player 1 board
+8. Player 1 turn to make guess
+9. Switch to player 2 board
+10. Player 2 turn to make guess
+11. Game ends when one player loses all ships
+
+Each turn displays number of sunk ships for both players
+Board spaces will be highlighted with red H or white M when interacted with
+____________________________________________________________________________
+So far:
+- Classes created and populated
+- Ships occupy multiple spaces
+- Board can be manipulated and shown
+- Ships can be created, placed on board, and hit
+- Game can be saved (saving and loading not properly tested)
+- Game can be started, ships can be placed,
+ships can be hit, missed, or sunk (all show except hits)
+
+To do:
+!! Incorporate player class with turns, etc.
+!! - Create main gameplay loop logic as above
+!! - Implement bot as player 2 (bot chooses random board spaces to fire on)
+- 3 to quit, 4 to replay during gameplay?
+____________________________________________________________________________
+B grade requirements:
+
+- 2 players
+- Full game logic
+- 3 ship types with 3 hit points (3 ships per player)
+- Player turn logic
+- Colors for hits and misses
+- Create bot option for player 2
+- Quit and restart during game functionality
+- Input validation
+- Verbose error handling
+____________________________________________________________________________
+OOP Notes:
+- Instead of individual player ship arraylists (p1ships), (p1.shiplist)
+- Same for player inputs?
+-
+-
+-
